@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario da Copa - NLW</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap" rel="stylesheet">
+
+  </head>
+  <body class="bg-initial">
+    <div id="app">
+      <header>
+        <img src="./assets/logo.svg" alt="Logo da NLW Copa escrio 'Calendário' em baixo">
+        <div class="choiseTeam">
+          <label for="choise-team">Escolha a sua seleção</label>
+          <select name="choise-team" id="choise-team" onchange="getSelect()">
+            <option value="initial" selected></option>
+            <option value="germany">Alemanha</option>
+            <option value="saudiArabia">Arábia Saudita</option>
+            <option value="argentina">Argentina</option>
+            <option value="australia">Austrália</option>
+            <option value="belgium">Bélgica</option>
+            <option value="brazil">Brasil</option>
+            <option value="cameroon">Camarões</option>
+            <option value="canada">Canadá</option>
+            <option value="qatar">Catar</option>
+            <option value="southKorea">Coreia do Sul</option>
+            <option value="costaRica">Costa Rica</option>
+            <option value="croatia">Croácia</option>
+            <option value="denmark">Dinamarca</option>
+            <option value="ecuador">Equador</option>
+            <option value="spain">Espanha</option>
+            <option value="unitedStates">Estados Unidos</option>
+            <option value="france">França</option>
+            <option value="ghana">Gana</option>
+            <option value="netherlands">Holanda</option>
+            <option value="england">Inglaterra</option>
+            <option value="iran">Irã</option>
+            <option value="japan">Japão</option>
+            <option value="morocco">Marrocos</option>
+            <option value="mexico">México</option>
+            <option value="wales">País de Gales</option>
+            <option value="poland">Polônia</option>
+            <option value="portugal">Portugal</option>
+            <option value="senegal">Senegal</option>
+            <option value="serbia">Sérvia</option>
+            <option value="switzerland">Suíça</option>
+            <option value="tunisia">Tunísia</option>
+            <option value="uruguay">Uruguai</option>
+          </select>
+        </div>
+      </header>
+      <main id="cards"></main>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
