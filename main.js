@@ -55,30 +55,30 @@ document.querySelector("#cards").innerHTML =
       "25/11",
       "sexta",
       createGame("wales", "0 x 2", "iran") +
-        createGame("qatar", "10:00", "senegal") +
-        createGame("netherlands", "13:00", "ecuador") +
-        createGame("england", "16:00", "unitedStates")
+        createGame("qatar", "1 x 3", "senegal") +
+        createGame("netherlands", "1 x 1", "ecuador") +
+        createGame("england", "0 x 0", "unitedStates")
     ) +
     createCard(
       "26/11",
       "sábado",
-      createGame("tunisia", "07:00", "australia") +
-        createGame("poland", "10:00", "saudiArabia") +
-        createGame("france", "13:00", "denmark") +
-        createGame("argentina", "16:00", "mexico")
+      createGame("tunisia", "0 x 1", "australia") +
+        createGame("poland", "2 x 0", "saudiArabia") +
+        createGame("france", "2 x 1", "denmark") +
+        createGame("argentina", "2 x 0", "mexico")
     ) +
     createCard(
       "27/11",
       "domingo",
-      createGame("japan", "07:00", "costaRica") +
-        createGame("belgium", "10:00", "morocco") +
-        createGame("croatia", "13:00", "canada") +
-        createGame("spain", "16:00", "germany")
+      createGame("japan", "0 x 1", "costaRica") +
+        createGame("belgium", "0 x 2", "morocco") +
+        createGame("croatia", "4 x 1", "canada") +
+        createGame("spain", "1 x 1", "germany")
     ) +
     createCard(
       "28/11",
       "segunda",
-      createGame("cameroon", "07:00", "serbia") +
+      createGame("cameroon", "3 x 3", "serbia") +
         createGame("southKorea", "10:00", "ghana") +
         createGame("brazil", "13:00", "switzerland") +
         createGame("portugal", "16:00", "uruguay")
@@ -114,7 +114,37 @@ document.querySelector("#cards").innerHTML =
         createGame("ghana", "12:00", "uruguay") +
         createGame("serbia", "16:00", "switzerland") +
         createGame("cameroon", "16:00", "brazil")
+    ) +
+
+    createCard(
+      "03/12",
+      "sábado",
+      createGame("INDEFINIDO", "12:00", "INDEFINIDO") +
+      createGame("INDEFINIDO", "16:00", "INDEFINIDO") 
+   
+    ) +
+
+    createCard(
+      "04/12",
+      "domingo",
+      createGame("INDEFINIDO", "12:00", "INDEFINIDO") +
+      createGame("INDEFINIDO", "16:00", "INDEFINIDO") 
+    ) +
+
+    createCard(
+      "05/12",
+      "segunda",
+      createGame("INDEFINIDO", "12:00", "INDEFINIDO") +
+      createGame("INDEFINIDO", "16:00", "INDEFINIDO") 
+    ) +
+    
+    createCard(
+      "06/12",
+      "terça",
+      createGame("INDEFINIDO", "12:00", "INDEFINIDO") +
+      createGame("INDEFINIDO", "16:00", "INDEFINIDO") 
     )
+    
 
 let bgBody = document.querySelector('body')
 let selectTeam = document.querySelector("#choise-team")
